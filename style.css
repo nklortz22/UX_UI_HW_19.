@@ -1,0 +1,45 @@
+.flexContainer {
+    display:flex;
+   flex-direction: row;
+}
+
+.Skillz {
+    background-color: plum;
+    width: 33%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.CaseStudyImage {
+    grid-area: 4fr;
+}
+
+.CaseStudyInfo {
+    grid-area: 4fr;
+}
+
+.myWork {
+    display: grid;
+    padding: 24px;
+    margin: 48px;
+    grid-template-rows: 100px;
+    grid-template-columns: 150px;
+    grid-template-areas: none;
+}
+
+@media only screen and (max-width: 600) {
+    .Skillz{
+        width: 50%;
+        margin: 5px
+        grid-template: center;
+    }
+    .flexContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .myWork {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: none;
+    }
+}
