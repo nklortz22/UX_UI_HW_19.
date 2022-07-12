@@ -1,6 +1,9 @@
-<html>
-console.log("Your index.js file is loaded correctly!");
 
+$(document).ready (function(){
+$("#CarexP").hide ();
 
-<script src="js/index.js"></script>
-</html>
+  $("CaseStudyImage").on('click',function (){
+    $("#CarexP").show ();
+    
+  });
+});

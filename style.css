@@ -23,7 +23,7 @@
     padding: 24px;
     margin: 48px;
     grid-template-rows: 100px;
-    grid-template-columns: 150px;
+    grid-template-columns: 45%;
     grid-template-areas: none;
 }
 
