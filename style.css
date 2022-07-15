@@ -1,3 +1,24 @@
+.Headshot {
+    width:200px;
+    padding:1%;
+}
+
+.heroimg {
+    height: 600px;
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+}
+.nav {
+    width:73%;
+    padding:1%;
+}
+
+ul{
+    width:50%;
+    margin-left: auto;
+}
+
 .flexContainer {
     display:flex;
    flex-direction: row;
